@@ -1,0 +1,81 @@
+===CSV Summary===
+filename: test.csv
+
+Number of rows: 250000
+Number of columns: 17
+
+Columns and data types:
+id            int64
+age           int64
+job          object
+marital      object
+education    object
+default      object
+balance       int64
+housing      object
+loan         object
+contact      object
+day           int64
+month        object
+duration      int64
+campaign      int64
+pdays         int64
+previous      int64
+poutcome     object
+dtype: object
+
+Missing values per column:
+id           0
+age          0
+job          0
+marital      0
+education    0
+default      0
+balance      0
+housing      0
+loan         0
+contact      0
+day          0
+month        0
+duration     0
+campaign     0
+pdays        0
+previous     0
+poutcome     0
+dtype: int64
+
+Summary statistics for numeric columns:
+                  id            age        balance            day  \
+count  250000.000000  250000.000000  250000.000000  250000.000000   
+mean   874999.500000      40.932332    1197.426352      16.116068   
+std     72168.927986      10.081613    2741.520699       8.258509   
+min    750000.000000      18.000000   -8019.000000       1.000000   
+25%    812499.750000      33.000000       0.000000       9.000000   
+50%    874999.500000      39.000000     631.000000      17.000000   
+75%    937499.250000      48.000000    1389.000000      21.000000   
+max    999999.000000      95.000000   98517.000000      31.000000   
+
+            duration       campaign          pdays       previous  
+count  250000.000000  250000.000000  250000.000000  250000.000000  
+mean      255.342260       2.573548      22.280028       0.303728  
+std       271.404326       2.709661      76.915879       1.384574  
+min         3.000000       1.000000      -1.000000       0.000000  
+25%        91.000000       1.000000      -1.000000       0.000000  
+50%       133.000000       2.000000      -1.000000       0.000000  
+75%       353.000000       3.000000      -1.000000       0.000000  
+max      4918.000000      58.000000     871.000000     150.000000  
+
+First 5 rows:
+       id  age            job  marital  education default  balance housing  \
+0  750000   32    blue-collar  married  secondary      no     1397     yes   
+1  750001   44     management  married   tertiary      no       23     yes   
+2  750002   36  self-employed  married    primary      no       46     yes   
+3  750003   58    blue-collar  married  secondary      no    -1380     yes   
+4  750004   28     technician   single  secondary      no     1950     yes   
+
+  loan   contact  day month  duration  campaign  pdays  previous poutcome  
+0   no   unknown   21   may       224         1     -1         0  unknown  
+1   no  cellular    3   apr       586         2     -1         0  unknown  
+2  yes  cellular   13   may       111         2     -1         0  unknown  
+3  yes   unknown   29   may       125         1     -1         0  unknown  
+4   no  cellular   22   jul       181         1     -1         0  unknown  

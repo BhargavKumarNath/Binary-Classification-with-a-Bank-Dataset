@@ -1,0 +1,33 @@
+=== CSV Summary ===
+
+Number of rows: 250000
+Number of columns: 2
+
+Columns and data types:
+id      int64
+y     float64
+dtype: object
+
+Missing values per column:
+id    0
+y     0
+dtype: int64
+
+Summary statistics for numeric columns:
+                  id             y
+count  250000.000000  2.500000e+05
+mean   874999.500000  1.209753e-01
+std     72168.927986  2.233215e-01
+min    750000.000000  5.947016e-07
+25%    812499.750000  8.919412e-03
+50%    874999.500000  2.358294e-02
+75%    937499.250000  9.129533e-02
+max    999999.000000  1.000000e+00
+
+First 5 rows:
+       id         y
+0  750000  0.007759
+1  750001  0.324820
+2  750002  0.007733
+3  750003  0.002026
+4  750004  0.029475
